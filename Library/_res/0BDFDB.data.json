@@ -1,8 +1,7 @@
 {
 	"PluginNameMap": {},
 	"PluginUrlMap": {
-		"BDFDB": "https://mwittrien.github.io/BetterDiscordAddons/Library/0BDFDB.plugin.js",
-		"ShowHiddenChannels": "https://mwittrien.github.io/BetterDiscordAddons/_DEAD/ShowHiddenChannels.plugin.js"
+		"BDFDB": "https://mwittrien.github.io/BetterDiscordAddons/Library/0BDFDB.plugin.js"
 	},
 	"LibraryRequires": ["electron", "fs", "path", "process", "request"],
 	"DiscordObjects": {
@@ -1097,6 +1096,10 @@
 			"connections": "connections-pPr4as",
 			"verifiedBadge": "verifiedBadge-mH2YpO"
 		},
+		"ShowHiddenChannels": {
+			"accessModal": "accessModal-w5HjsV",
+			"hiddenChannel": "hidden-9f2Dsa"
+		},
 		"SpotifyControls": {
 			"activityButton": "activityButton-5Fs4Aa",
 			"bar": "bar-g2ZMIm",
@@ -1595,6 +1598,8 @@
 		"_showconnectionsconnections": ["ShowConnections", "connections"],
 		"_showconnectionsicon": ["ShowConnections", "connectionIcon"],
 		"_showconnectionsverifiedbadge": ["ShowConnections", "verifiedBadge"],
+		"_showhiddenchannelsaccessmodal": ["ShowHiddenChannels", "accessModal"],
+		"_showhiddenchannelshiddenchannel": ["ShowHiddenChannels", "hiddenChannel"],
 		"_spellcheckerror": ["SpellCheck", "error"],
 		"_spellcheckoverlay": ["SpellCheck", "overlay"],
 		"_spotifycontrolsactivitybutton": ["SpotifyControls", "activityButton"],
